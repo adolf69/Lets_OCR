@@ -4,7 +4,7 @@ sys.path.append("../..")
 import os
 import codecs
 import cv2
-import draw_image
+import lib.draw_image as draw_image
 import lmdb
 
 import Net as Net
