@@ -16,12 +16,12 @@ import sys
 
 anchor_height = [11, 16, 22, 32, 46, 66, 94, 134, 191, 273]
 
-IMG_ROOT = "../common/OCR_TEST"
+IMG_ROOT = "/home/shizai/adolf/ai+rpa/ocr/ocr_pra/ctpn_n/data_test"
 TEST_RESULT = './test_result'
 THRESH_HOLD = 0.7
 NMS_THRESH = 0.3
 NEIGHBOURS_MIN_DIST = 50
-MIN_ANCHOR_BATCH = 2
+MIN_ANCHOR_BATCH = 1
 MODEL = './model/ctpn-msra_ali-9-end.model'
 
 
