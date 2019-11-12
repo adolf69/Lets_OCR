@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch.nn.functional as F
-import img2col
+import Net.img2col as img2col
 import numpy as np
 import torch
 
